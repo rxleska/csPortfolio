@@ -1,0 +1,274 @@
+.banner {
+	width: 100%;
+  height: auto;
+}
+head{
+	margin: 0 !important;
+  padding: 0 !important;
+}
+body {
+	margin: 0 !important;
+  padding: 0 !important;
+	background-color: #011328;
+	color: #FFCB47;
+	font-size: 40px;
+	text-align: center;
+ 
+  /* font-family: "Comic Sans MS", bold, cursive, sans-serif; */
+}
+header{
+	 text-align: center;
+}
+p1{
+	margin: 5%;
+	font-size: 20px;
+}
+/* ul {
+	margin-top: -20px;
+	justify-content: center;
+	font-size: 15px;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+	display: flex;
+  background-color: #000500;
+}
+
+li {
+  float: left;
+	flex-grow: 2;
+}
+
+li a {
+  display: block;
+	
+  color: #FFFBFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #808080;
+	flex-grow: 2;
+	margin-top: 0px;
+	
+}
+li a:hover .submenu > li {
+	display: block;
+  flex-direction: column;
+  top: 0px;
+}
+.submenu li {
+    display: none;
+    position: absolute;
+    top: 0px;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu li:hover .submenu-2 li {
+    display: block;
+}
+
+.submenu-2 li {
+    display: none;
+}
+
+.submenu-2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 75%;
+    width: 250px;
+} */
+
+#main-nav {
+    margin-top: 2px;
+		margin-left: 0;
+}
+
+#main-nav a {
+    color: #f6f7f8;
+    background: #000500;
+    height: 64px;
+    
+    /* font-weight: bold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 22px;
+}
+
+#main-nav a:hover {
+    background: #808080;
+}
+
+#main-nav ul {
+    list-style: none;
+		margin-top: -20px;
+    display: flex;
+		padding: 0!important;
+}
+
+#main-nav li {
+    width: 100%;
+    text-align: center;
+    position: relative;
+		padding: 0!important;
+}
+
+#main-nav li:hover .submenu > li {
+	/* margin-top:  20px; */
+    display: block;
+    flex-direction: column;
+    top: 0px;
+		padding: 0!important;
+}
+
+.submenu li {
+		/* margin-top: -20px; */
+    display: none;
+    position: absolute;
+    top: 0px;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu li:hover .submenu-2 li {
+    display: block;
+}
+
+.submenu-2 li {
+    display: none;
+}
+
+.submenu-2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 75%;
+    width: 250px;
+}
+
+#linkContainer{
+	height: 100%;
+  width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 5%;
+	
+}
+.link{
+	margin-right: calc((100% - 300px) / 5 - 1px);
+	padding: 10px;
+	color: #000500;
+	font-size: 15px;
+	text-align: center;
+	background: #FFCB47;
+	border-color: #000500;
+	border-style: solid;
+	border-width: 5px;
+	width: 30%;
+}
+.linkPicture{
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	align-self: center;
+}
+canvas{
+	position: relative;
+	left: 0%;
+	top: 0%;
+	
+}
+
+/*page layout with flexbox*/
+.flexbox-container {
+    display: flex;
+		flex-basis: 30%;
+    border: 5px solid #000000;
+    margin-bottom: 20px;
+    align-content: space-around;
+		flex-flow: row wrap;
+
+}
+
+.flexbox-item {
+    width: auto;
+    margin: 5px;
+    padding: 10px;
+		flex-basis: 30%;
+    border: 3px solid #333;
+    background-color: #808080;
+}
+
+.flexbox-item-1 {
+    /* min-height: auto; */
+    background-color: #808080;
+		flex: 1;
+		max-width: 100%;
+		min-width: 25%;
+    font-family: ubuntu;
+    font-size: 28px;
+		flex-grow: 1;
+}
+
+.flexbox-item-2 {
+    /* min-height: auto; */
+    flex: 2;
+		max-width: 100%;
+		min-width: 50%;
+    /* align-self: center; */
+		flex-grow: 2;
+}
+
+.flexbox-item-3 {
+    /* min-height: auto; */
+		flex: 3;
+		max-width: 100%;
+		min-width: 80%;
+		flex-grow: 3;
+}
+fleximg{
+	max-width: 50%;
+	width: 1%;
+	height: auto;
+	align-self: center;
+}
+.flexlink:link{
+	font-size: 40px!important;
+	color: #FFCB47;
+	align-content: center;
+}
+.flexlink:visited{
+	font-size: 40px!important;
+	color: #daa520;
+	align-content: center;
+}
+
+/*color pallet https://coolors.co/808080-000500-011328-fffbff-ffcb47*/
